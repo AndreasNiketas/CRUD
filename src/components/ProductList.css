@@ -1,0 +1,65 @@
+/* Estilo general de la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Nombre y precio del producto */
+  li span {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Botones */
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    filter: brightness(0.9);
+  }
+  
+  /* Botón de editar */
+  button:first-of-type {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  button:first-of-type:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Botón de eliminar */
+  button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
